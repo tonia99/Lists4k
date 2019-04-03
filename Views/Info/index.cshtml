@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Product App</title>
+</head>
+<body>
+
+<div>
+    <h2>User Arrays</h2>
+</div>
+<div>
+    
+    <input type="text" id="firstArray" name="firstArray[]"/>
+    <input type="text" id="secondArray" name="secondArray[]"/>
+    <input type="button" value="Search" onclick="find();"/>
+    <div id="info" style="color: green;"></div>
+</div>
+
+
+
+<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-2.0.3.min.js"></script>
+<script>
+    var uri = 'values';
+    
+    function find() {
+        $.ajax({
+            type: "GET",
+            url: getUrl()
+        }).success(function(data) {
+            document.getElementById('info').innerText = data.split('');
+        });
+    }
+    
+    function getUrl() {
+        var firstArray = document.getElementById('firstArray').value.split(',');
+        var secondArray = document.getElementById('secondArray').value.split(',');
+         
+        if (firstArray || secondArray){
+            uri += "?";
+        } else{
+            return;
+        }
+        
+        $.each(firstArray, function (i, item) {
+            uri+= "firstArray=" + item + "&";
+        });
+        
+        
+        $.each(secondArray, function (i, item) {
+            uri += "secondArray=" + item + "&";
+        });
+
+        return uri.substring(0,uri.length -1 );
+    }
+</script>
+</body>
+</html>

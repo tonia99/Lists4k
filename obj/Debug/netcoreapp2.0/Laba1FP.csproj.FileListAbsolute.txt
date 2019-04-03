@@ -1,0 +1,10 @@
+/Users/skalpel/Documents/F1/FOD/Laba1FP/Laba1FP/obj/Debug/netcoreapp2.0/Laba1FP.csproj.CoreCompileInputs.cache
+/Users/skalpel/Documents/F1/FOD/Laba1FP/Laba1FP/obj/Debug/netcoreapp2.0/Laba1FP.AssemblyInfoInputs.cache
+/Users/skalpel/Documents/F1/FOD/Laba1FP/Laba1FP/obj/Debug/netcoreapp2.0/Laba1FP.AssemblyInfo.cs
+/Users/skalpel/Documents/F1/FOD/Laba1FP/Laba1FP/bin/Debug/netcoreapp2.0/Laba1FP.deps.json
+/Users/skalpel/Documents/F1/FOD/Laba1FP/Laba1FP/bin/Debug/netcoreapp2.0/Laba1FP.runtimeconfig.json
+/Users/skalpel/Documents/F1/FOD/Laba1FP/Laba1FP/bin/Debug/netcoreapp2.0/Laba1FP.runtimeconfig.dev.json
+/Users/skalpel/Documents/F1/FOD/Laba1FP/Laba1FP/bin/Debug/netcoreapp2.0/Laba1FP.dll
+/Users/skalpel/Documents/F1/FOD/Laba1FP/Laba1FP/bin/Debug/netcoreapp2.0/Laba1FP.pdb
+/Users/skalpel/Documents/F1/FOD/Laba1FP/Laba1FP/obj/Debug/netcoreapp2.0/Laba1FP.dll
+/Users/skalpel/Documents/F1/FOD/Laba1FP/Laba1FP/obj/Debug/netcoreapp2.0/Laba1FP.pdb
